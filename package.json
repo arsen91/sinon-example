@@ -1,0 +1,20 @@
+{
+  "name": "ex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava -v -w",
+    "fancyTest": "ava -t | tap-nyan"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "sinon": "^4.5.0",
+    "tap-nyan": "^1.1.0"
+  },
+  "dependencies": {
+    "com.geotab.BackgroundWatchPosition": "git+https://github.com/Geotab/cordova-background-watchposition.git#crosswalk"
+  }
+}
